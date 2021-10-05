@@ -1,11 +1,17 @@
 body {
-  background-image: url(https://wallpaperaccess.com/full/87540.jpg);
-  background-repeat: no-repeat;
 }
 .flex-container {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: stretch;
-  gap: 10px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding:0;
+  margin:0;
+  list-style:none;
+
+}
+.box{ 
+  text-align: center;
+  padding: 5px;
+  width: 200px;
+
 }
