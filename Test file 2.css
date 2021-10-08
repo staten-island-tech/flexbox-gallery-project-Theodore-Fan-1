@@ -6,30 +6,17 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
 }
-.flex-container {
-  width: 100vw;
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  width: 90vw;
   margin: 3rem auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
-  background-color: orangered;
 }
-.name {
-  margin: 2rem auto;
-  display: flex;
-  padding: 25px;
-  height: 50rem;
-  flex-direction: column;
-  width: 45%;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 3rem;
-  border-radius: 10px;
-}
-.image {
-  width: 30%;
-  background-color: white;
+.gallery-card {
+  width: 27%;
+  background-color: red;
   height: 30rem;
   margin: 30px auto;
+
 }
