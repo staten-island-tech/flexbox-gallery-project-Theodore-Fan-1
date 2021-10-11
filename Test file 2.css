@@ -23,7 +23,8 @@ body {
   margin-bottom: 3.125rem;
   text-align: center;
   background-color: orange;
-  border: 0.313rem solid red;
+  border: 0.5rem solid red;
+  box-shadow: 1rem 1rem 1rem grey
 }
 .card-img {
   width: 45rem;
