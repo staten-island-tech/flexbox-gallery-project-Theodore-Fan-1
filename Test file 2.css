@@ -24,7 +24,7 @@ body {
   text-align: center;
   background-color: orange;
   border: 0.5rem solid red;
-  box-shadow: 1rem 1rem 1rem grey
+  box-shadow: 1rem 1rem 1rem grey;
 }
 .card-img {
   width: 45rem;
@@ -39,15 +39,16 @@ body {
   font-size: 6rem;
   margin-top: 6.25rem;
   margin-bottom: 6.25rem;
+  font-family: garamond;
 }
 .card-title {
   font-size: 2.5rem;
 }
-.card-text{
+.card-text {
   font-size: 2rem;
-  margin-top:1.5rem;
+  margin-top: 1.5rem;
 }
-#curious{
+#curious {
   width: 45rem;
   object-fit: cover;
   max-width: 100%;
