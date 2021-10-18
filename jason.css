@@ -1,0 +1,158 @@
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.flex-container {
+  width: 180rem;
+  height: 180rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 15rem auto;
+  text-align: center;
+}
+
+#Page-title {
+  color: rgb(11, 105, 58);
+  font: weight 10rem;
+  font-family: "Trebuchet MS";
+  font-size: 10rem;
+  text-align: center;
+}
+
+.meme-header {
+  font-family: "Franklin Gothic Medium";
+  font-weight: bold;
+  font-size: 4rem;
+  color: rgba(24, 77, 24, 0.527);
+}
+.meme-image {
+  max-height: 30rem;
+}
+
+.meme-parent {
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  padding: 25px;
+  height: 50rem;
+  font-size: 3rem;
+  font-family: Verdana;
+  width: 28%;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 100px;
+  box-shadow: 0 1.5rem 4rem rgb(0, 0, 0);
+  margin-top: 3rem;
+  transition: all 0.3s;
+}
+
+.meme-parent:nth-child(1):hover {
+  transform: scaleX(1.1);
+}
+
+.meme-parent:nth-child(2):hover {
+  transform: translateX(5rem);
+}
+
+.meme-parent:nth-child(3):hover {
+  transform: rotateX(45deg);
+}
+
+.meme-parent:nth-child(4):hover {
+  transform: scale(0.7);
+}
+
+.meme-parent:nth-child(5):hover {
+  transform: scale(1.1);
+  background-color: rgb(194, 55, 124);
+}
+
+.shrek-animation {
+  height: 1rem;
+  width: 1rem;
+  animation: shrek 5s infinite;
+  position: relative;
+  z-index: 2;
+  flex-wrap: wrap;
+  flex: wrap;
+}
+
+@keyframes shrek {
+  0% {
+    top: 1%;
+    left: 0%;
+    opacity: 0%;
+  }
+  75% {
+    top: 1%;
+    left: 70%;
+    opacity: 100%;
+  }
+  100% {
+    top: 1%;
+    left: 100%;
+    opacity: 0%;
+  }
+}
+
+.animation-text {
+  animation: text 5s infinite;
+  position: relative;
+  font-size: 15rem;
+  color: rgb(66, 124, 8);
+  font-family: Apple Chancery, cursive;
+  z-index: 1;
+  display: flex;
+}
+
+@keyframes text {
+  0% {
+    top: 20%;
+    left: 16%;
+    opacity: 0%;
+  }
+  35% {
+    top: 20%;
+    left: 16%;
+    opacity: 0%;
+  }
+  50% {
+    top: 20%;
+    left: 16%;
+    opacity: 100%;
+  }
+  75% {
+    top: 20%;
+    left: 16%;
+    opacity: 100%;
+  }
+  100% {
+    top: 20%;
+    left: 16%;
+    opacity: 0%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .meme-image {
+    width: 40%;
+  }
+  .flex-container {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width 600px) {
+  .meme-parent {
+    width: 80%;
+  }
+}

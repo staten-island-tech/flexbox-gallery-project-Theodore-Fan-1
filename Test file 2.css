@@ -100,27 +100,27 @@ body {
 }
 @keyframes test {
   0% {
-    left: 30%;
+    left: 20%;
     bottom: 10%;
     background-color: red;
   }
   25% {
-    left: 40%;
+    left: 30%;
     bottom: 10%;
     background-color: blue;
   }
   50% {
-    left: 50%;
+    left: 40%;
     bottom: 10%;
     background-color: green;
   }
   75% {
-    left: 60%;
+    left: 50%;
     bottom: 10%;
     background-color: yellow;
   }
   100% {
-    left: 70%;
+    left: 60%;
     bottom: 10%;
     background-color: purple;
   }
