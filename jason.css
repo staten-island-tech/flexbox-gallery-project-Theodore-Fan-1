@@ -157,8 +157,15 @@ body {
   }
 }
 
-@media screen and (max-width 600px) {
+@media screen and (max-width 400px) {
+  .meme-image {
+    width: 60%;
+  }
   .meme-parent {
     width: 80%;
+    background-color: blue;
+  }
+  .flex-container {
+    width: 40%;
   }
 }
