@@ -13,7 +13,6 @@ body {
 
 .flex-container {
   width: 180rem;
-  height: 180rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -144,9 +143,16 @@ body {
 
 @media screen and (max-width: 768px) {
   .meme-image {
+    width: 80%;
+  }
+  .meme-parent {
     width: 40%;
+    background-color: red;
   }
   .flex-container {
+    width: 80%;
+  }
+  .animation-text {
     width: 40%;
   }
 }
