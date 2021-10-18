@@ -91,3 +91,37 @@ body {
     background-color: red;
     width: 80%;
   }
+}
+.animation{
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  animation: test 4s infinite;
+}
+@keyframes test{ 
+  0%{
+left: 50%;
+bottom: 10%;
+background-color: red;
+  }
+  25%{
+    left: 50%;
+    bottom: 20%;
+    background-color:blue ;
+  }
+  50%{
+    left: 55%;
+    bottom: 20%;
+    background-color: green;
+  }
+  75%{
+    left: 55%;
+    bottom: 10%;
+    background-color: yellow;
+  }
+  100%{
+    left: 50%;
+    bottom: 10%;
+    background-color: purple;
+  }
+}
